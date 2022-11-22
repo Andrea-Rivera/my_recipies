@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  margin:30px;
+  background-color: antiquewhite;
+}
+
+.foodImage{
+  height: 300px;
+  border-radius: 40%;
+}
+
+.container p{
+text-align: left;
+padding: 10px;
+}
+
+.container h3{
+  color: rgb(255, 0, 85);
+}
