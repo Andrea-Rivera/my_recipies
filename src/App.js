@@ -1,11 +1,13 @@
-import FoodList from "./components/List/List";
-import "./App.css";
+import FoodList from "./components/List/foodList";
 
 function App() {
   return (
-    <div className="App">
-      <FoodList />
-    </div>
+    <>
+      <h1>Andrea's favourites recipies.</h1>
+      <section>
+        <FoodList />
+      </section>
+    </>
   );
 }
 
